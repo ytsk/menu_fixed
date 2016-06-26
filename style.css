@@ -1,0 +1,39 @@
+body {
+  height: 2000px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #3949AB;
+}
+
+.fixed_menu ul {
+  -webkit-padding-start: 0;
+  padding: none;
+
+}
+
+.fixed_menu ul li {
+  list-style: none;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fixed_menu ul li a {
+  list-style: none;
+  text-decoration: none;
+  padding: 10px 40px;
+  display: block;
+  transition: 0.2s;
+}
+
+.fixed_menu ul li a:visited {
+  color: #FFF;
+}
+
+.fixed_menu ul li a:hover {
+  background: #FFF;
+  color: #3949AB;
+}
